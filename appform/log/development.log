@@ -1,0 +1,2128 @@
+Started GET "/" for 127.0.0.1 at 2017-07-20 16:42:45 +0530
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (275.4ms)
+Completed 500 Internal Server Error in 410ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new_web_forms_path' for #<#<Class:0xa57aa44>:0xa571db8>):
+    1: <h1>Welcome#index</h1>
+    2: <%= link_to 'New registration', new_web_forms_path %>
+  
+app/views/welcome/index.html.erb:2:in `_app_views_welcome_index_html_erb___331145512_88642500'
+Started GET "/" for 127.0.0.1 at 2017-07-20 16:42:49 +0530
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (230.9ms)
+Completed 500 Internal Server Error in 235ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new_web_forms_path' for #<#<Class:0xa57aa44>:0x9a1f49c>):
+    1: <h1>Welcome#index</h1>
+    2: <%= link_to 'New registration', new_web_forms_path %>
+  
+app/views/welcome/index.html.erb:2:in `_app_views_welcome_index_html_erb___331145512_80825240'
+Started GET "/" for 127.0.0.1 at 2017-07-20 16:42:50 +0530
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (238.6ms)
+Completed 500 Internal Server Error in 243ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new_web_forms_path' for #<#<Class:0xa57aa44>:0xa51638c>):
+    1: <h1>Welcome#index</h1>
+    2: <%= link_to 'New registration', new_web_forms_path %>
+  
+app/views/welcome/index.html.erb:2:in `_app_views_welcome_index_html_erb___331145512_86554340'
+Started GET "/" for 127.0.0.1 at 2017-07-20 16:43:20 +0530
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 582ms (Views: 580.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-20 16:43:48 +0530
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 17ms (Views: 16.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-20 16:43:49 +0530
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 20ms (Views: 18.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-20 16:43:56 +0530
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (230.7ms)
+Completed 500 Internal Server Error in 233ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new_webforms_path' for #<#<Class:0xa57aa44>:0xaff51b44>):
+    1: <h1>Welcome#index</h1>
+    2: <%= link_to 'New registration', new_webforms_path %>
+  
+app/views/welcome/index.html.erb:2:in `_app_views_welcome_index_html_erb___331145512__671444978'
+Started GET "/" for 127.0.0.1 at 2017-07-20 16:48:53 +0530
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 408ms (Views: 269.1ms)
+
+
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-20 16:49:07 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (62.0ms)
+Completed 200 OK in 103ms (Views: 102.0ms)
+
+
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-20 16:53:46 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 4ms
+
+
+  
+SyntaxError (/home/nmu/appform/app/views/webforms/new.html.erb:3: syntax error, unexpected tIDENTIFIER, expecting ')'
+er.append=( f.label :full name );@output_buffer.safe_append=
+                              ^):
+  
+app/views/webforms/new.html.erb:3: syntax error, unexpected tIDENTIFIER, expecting ')'
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-20 16:54:02 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 33ms (Views: 30.8ms)
+
+
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-20 16:55:32 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 21ms (Views: 19.9ms)
+
+
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-20 16:56:17 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 22ms (Views: 20.5ms)
+
+
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-20 16:57:06 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (121.0ms)
+Completed 500 Internal Server Error in 124ms
+
+
+  
+ActionView::Template::Error (undefined method `reset' for #<ActionView::Helpers::FormBuilder:0xb72fc08>
+Did you mean?  present?):
+     7:  
+     8:   <p>
+     9:     <%= f.submit %>
+    10: <%= f.reset %>
+    11: 
+    12:   </p>
+    13: 
+  
+app/views/webforms/new.html.erb:10:in `block in _app_views_webforms_new_html_erb__152549452__622262298'
+app/views/webforms/new.html.erb:1:in `_app_views_webforms_new_html_erb__152549452__622262298'
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-20 17:00:01 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 21ms (Views: 20.1ms)
+
+
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-20 17:05:26 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 21ms (Views: 19.6ms)
+
+
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-20 17:06:15 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 24ms (Views: 22.5ms)
+
+
+Started POST "/webforms/new" for 127.0.0.1 at 2017-07-20 17:06:18 +0530
+  
+ActionController::RoutingError (No route matches [POST] "/webforms/new"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/webforms/new" for 127.0.0.1 at 2017-07-20 17:08:31 +0530
+  
+ActionController::RoutingError (No route matches [POST] "/webforms/new"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/webforms/new" for 127.0.0.1 at 2017-07-20 17:08:36 +0530
+  
+ActionController::RoutingError (No route matches [POST] "/webforms/new"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-20 17:10:04 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 142ms
+
+
+  
+SyntaxError (/home/nmu/appform/app/views/webforms/new.html.erb:18: syntax error, unexpected keyword_ensure, expecting keyword_end
+          ensure
+                ^):
+  
+app/views/webforms/new.html.erb:18: syntax error, unexpected keyword_ensure, expecting keyword_end
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-20 17:10:25 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (19.6ms)
+Completed 200 OK in 238ms (Views: 237.0ms)
+
+
+Started POST "/webforms" for 127.0.0.1 at 2017-07-20 17:10:29 +0530
+  
+AbstractController::ActionNotFound (The action 'create' could not be found for WebformsController):
+  
+actionpack (5.1.2) lib/abstract_controller/base.rb:119:in `process'
+actionview (5.1.2) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.2) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.2) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:46:in `block in serve'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:832:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.2) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.2) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/webforms" for 127.0.0.1 at 2017-07-20 17:15:05 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WeG84mTXGjWjVnQxsAgHzIffJeWcYy/kUot6SPfNRea5cN7pxSrHEWWzUuHEYbuOSfkRZH12qvqM1KwV864CYA==", "info"=>{"fname"=>"aaa"}, "commit"=>"Save Info"}
+No template found for WebformsController#create, rendering head :no_content
+Completed 204 No Content in 13ms
+
+
+Started GET "/webforms" for 127.0.0.1 at 2017-07-20 17:15:09 +0530
+  
+AbstractController::ActionNotFound (The action 'index' could not be found for WebformsController):
+  
+actionpack (5.1.2) lib/abstract_controller/base.rb:119:in `process'
+actionview (5.1.2) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.2) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.2) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:46:in `block in serve'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:832:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.2) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.2) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-20 17:15:16 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 23ms (Views: 22.2ms)
+
+
+Started POST "/webforms" for 127.0.0.1 at 2017-07-20 17:15:20 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SczSYZZVq+Qt9WqJgac5K4h4es/zxhYAriqsAFqyLVWpXbBqN6h2wOsQTFn1zoVpRl5OThLTkx5wdXpdXtFq0w==", "info"=>{"fname"=>"aa"}, "commit"=>"Save Info"}
+No template found for WebformsController#create, rendering head :no_content
+Completed 204 No Content in 13ms
+
+
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-20 17:17:16 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 24ms (Views: 23.1ms)
+
+
+Started POST "/webforms" for 127.0.0.1 at 2017-07-20 17:17:17 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/0p54iwZTHhR/zdWZfzubZetE+sDomV/7G4djf3H5bYf2xvpjeSRXJcaEYYRlVIvWYsnauK34GEyMcvQ+aSiMA==", "info"=>{"fname"=>"aa"}, "commit"=>"Save Info"}
+Redirected to 
+Completed 500 Internal Server Error in 1ms
+
+
+  
+ActionController::ActionControllerError (Cannot redirect to nil!):
+  
+app/controllers/webforms_controller.rb:5:in `create'
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-20 17:17:41 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 27ms (Views: 25.4ms)
+
+
+Started POST "/webforms" for 127.0.0.1 at 2017-07-20 17:17:44 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2+oyH16h6aYk143YGfXckmXm2L47RtC5bKCwYGCH1EE7e1AU/1w0guIyqwhtnGDQq8DsP9pTVaey/2Y9ZOSTxw==", "info"=>{"fname"=>"x"}, "commit"=>"Save Info"}
+Redirected to 
+Completed 500 Internal Server Error in 1ms
+
+
+  
+ActionController::ActionControllerError (Cannot redirect to nil!):
+  
+app/controllers/webforms_controller.rb:5:in `create'
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-20 17:21:14 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 21ms (Views: 20.0ms)
+
+
+Started POST "/webforms" for 127.0.0.1 at 2017-07-20 17:21:17 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/jQtuw3OTsWPC7fwu295EyXIUZ3rxMAXlKdZV3YjLtoepU+wrDOT4UnukSDPBsVR6+5lHArRRQlK+I8KckBpXA==", "info"=>{"fname"=>"m"}, "commit"=>"Save Info"}
+Redirected to 
+Completed 500 Internal Server Error in 157ms
+
+
+  
+NoMethodError (undefined method `new_form_url' for #<WebformsController:0xb43ae2d8>
+Did you mean?  new_webform_url):
+  
+app/controllers/webforms_controller.rb:5:in `create'
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-20 17:22:06 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 23ms (Views: 21.7ms)
+
+
+Started POST "/webforms" for 127.0.0.1 at 2017-07-20 17:22:07 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FcDhZhKpJvoYliNiz7/l46PHKes5dN18yoJevaxAInv1UYNts1T73t5zBbK71lmhbeEdathhWGIU3YjgqCNl/Q==", "info"=>{"fname"=>""}, "commit"=>"Save Info"}
+Redirected to 
+Completed 500 Internal Server Error in 183ms
+
+
+  
+NoMethodError (undefined method `new_webform_url_url' for #<WebformsController:0xb434d668>
+Did you mean?  new_webform_url):
+  
+app/controllers/webforms_controller.rb:5:in `create'
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-20 17:22:26 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 23ms (Views: 22.5ms)
+
+
+Started POST "/webforms" for 127.0.0.1 at 2017-07-20 17:22:27 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hAdeI1PULTCZDIQ7ljbe+R3cxwGXrPFvIB4Ui3zI+Ghkljwo8inwFF/pouviX2K70/rzgHa5dHH+QcLWeKu/7g==", "info"=>{"fname"=>""}, "commit"=>"Save Info"}
+Redirected to http://localhost:3000/webforms/new
+Completed 302 Found in 1ms
+
+
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-20 17:22:27 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 26ms (Views: 24.4ms)
+
+
+Started POST "/webforms" for 127.0.0.1 at 2017-07-20 17:22:28 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BpCchVBl/Rd0hxTpTsNPShT9wOfiBGJms9AxXIQvrmDmAf6O8ZggM7JiMjk6qvMI2tv0ZgMR53htj+cBgEzp5g==", "info"=>{"fname"=>""}, "commit"=>"Save Info"}
+Redirected to http://localhost:3000/webforms/new
+Completed 302 Found in 1ms
+
+
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-20 17:22:28 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 24ms (Views: 22.7ms)
+
+
+Started POST "/webforms" for 127.0.0.1 at 2017-07-20 17:22:32 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VtgfSgj2w44dtN6RZ3MShPD7wOiL2yctCBqqMm+kpYG2SX1BqQseqttR+EETGq7GPt30aWrOojPWRXxva8fiBw==", "info"=>{"fname"=>"aaa"}, "commit"=>"Save Info"}
+Redirected to http://localhost:3000/webforms/new
+Completed 302 Found in 1ms
+
+
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-20 17:22:32 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 36ms (Views: 35.6ms)
+
+
+Started POST "/webforms" for 127.0.0.1 at 2017-07-20 17:24:23 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4Tpk35PLdZAJ1+2Ee6pq3RE0ssVDEKaWEXiFQzZw5BYBqwbUMjaotM8yy1QPw9af3xKGRKIFI4jPJ1MeMhOjkA==", "info"=>{"fname"=>"x"}, "commit"=>"Save Info"}
+Redirected to 
+Completed 500 Internal Server Error in 175ms
+
+
+  
+NoMethodError (undefined method `temp_webform_url' for #<WebformsController:0xb393f414>
+Did you mean?  edit_webform_url
+               new_webform_url):
+  
+app/controllers/webforms_controller.rb:5:in `create'
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-20 17:25:34 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 22ms (Views: 21.1ms)
+
+
+Started POST "/webforms" for 127.0.0.1 at 2017-07-20 17:25:35 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VUa46xi538DwCpoFqqtncfw2EMk3WGrBAjB5nfP4Nkm119rguUQC5DbvvNXewtszMhAkSNZN79/cb6/A95txzw==", "info"=>{"fname"=>""}, "commit"=>"Save Info"}
+Redirected to 
+Completed 500 Internal Server Error in 139ms
+
+
+  
+NoMethodError (undefined method `show_webform_url' for #<WebformsController:0xb46c52dc>
+Did you mean?  new_webform_url):
+  
+app/controllers/webforms_controller.rb:5:in `create'
+Started POST "/webforms" for 127.0.0.1 at 2017-07-20 17:26:04 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VUa46xi538DwCpoFqqtncfw2EMk3WGrBAjB5nfP4Nkm119rguUQC5DbvvNXewtszMhAkSNZN79/cb6/A95txzw==", "info"=>{"fname"=>""}, "commit"=>"Save Info"}
+Redirected to 
+Completed 500 Internal Server Error in 177ms
+
+
+  
+NoMethodError (undefined method `show_webform_url' for #<WebformsController:0xb424d650>
+Did you mean?  new_webform_url):
+  
+app/controllers/webforms_controller.rb:5:in `create'
+Started GET "/" for 127.0.0.1 at 2017-07-21 15:10:48 +0530
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (282.7ms)
+Completed 500 Internal Server Error in 571ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new_webforms_path' for #<#<Class:0xb620ccc>:0xb61cdd4>
+Did you mean?  new_webform_path
+               new_webform_url
+               edit_webform_path):
+    1: <h1>Welcome#index</h1>
+    2: <%= link_to 'new registration', new_webforms_path %>
+  
+app/views/welcome/index.html.erb:2:in `_app_views_welcome_index_html_erb___773816425_97383470'
+Started GET "/" for 127.0.0.1 at 2017-07-21 15:11:15 +0530
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 420ms (Views: 419.6ms)
+
+
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-21 15:11:18 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (235.2ms)
+Completed 200 OK in 253ms (Views: 252.3ms)
+
+
+Started POST "/webforms" for 127.0.0.1 at 2017-07-21 15:11:44 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"G7YNlCmS/PRFdC8l3d1DqNz9ADozpegVKbMeNvzXzVBuT49vsy4AgONeF6LQrpxVFKLlsseWvfG9FHRpz3h9hA==", "info"=>{"fname"=>"aaa"}, "commit"=>"Save Info"}
+Redirected to 
+Completed 500 Internal Server Error in 148ms
+
+
+  
+NoMethodError (undefined method `show_webform_url' for #<WebformsController:0xb2904504>
+Did you mean?  new_webform_url):
+  
+app/controllers/webforms_controller.rb:5:in `create'
+Started GET "/" for 127.0.0.1 at 2017-07-21 15:17:43 +0530
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 21ms (Views: 19.7ms)
+
+
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-21 15:17:45 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 22ms (Views: 20.5ms)
+
+
+Started POST "/webforms" for 127.0.0.1 at 2017-07-21 15:17:47 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Z1UpysP7OvvlvTJGCTR5pBogruELjzPgxyD3xR93Sc0SrKsxWUfGj0OXCsEER6ZZ0n9Laf+8ZgRTh52aLNj5GQ==", "info"=>{"fname"=>"h"}, "commit"=>"Save Info"}
+No template found for WebformsController#create, rendering head :no_content
+Completed 204 No Content in 15ms
+
+
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-21 15:24:30 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 37ms (Views: 35.5ms)
+
+
+Started POST "/webforms" for 127.0.0.1 at 2017-07-21 15:24:35 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cmpPQUYNaguftb9WOusNWFnE1YWZYCKZH2V924xe5+MKoam1Ag1iNvSxdS0LDytotYlF+DUuQyvXU0mY6ETDmA==", "info"=>{"fname"=>"a"}, "commit"=>"Save Info"}
+Completed 500 Internal Server Error in 178ms
+
+
+  
+NameError (undefined local variable or method `show_webform_path' for #<WebformsController:0xb254e770>
+Did you mean?  new_webform_path):
+  
+app/controllers/webforms_controller.rb:6:in `create'
+Started POST "/webforms" for 127.0.0.1 at 2017-07-21 15:25:35 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cmpPQUYNaguftb9WOusNWFnE1YWZYCKZH2V924xe5+MKoam1Ag1iNvSxdS0LDytotYlF+DUuQyvXU0mY6ETDmA==", "info"=>{"fname"=>"a"}, "commit"=>"Save Info"}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+ActionController::UrlGenerationError (No route matches {:action=>"show", :controller=>"webforms"}, missing required keys: [:id]):
+  
+app/controllers/webforms_controller.rb:6:in `create'
+Started GET "/" for 127.0.0.1 at 2017-07-21 15:33:22 +0530
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 20ms (Views: 19.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-21 15:41:49 +0530
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 20ms (Views: 18.6ms)
+
+
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-21 15:41:51 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 22ms (Views: 20.9ms)
+
+
+Started POST "/webforms" for 127.0.0.1 at 2017-07-21 15:41:55 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PEDO5TgKuiITCXqwyvau4x16hSAdv8wDGemqe503IxVJuUweorZGVrUjQjfHhXEe1SVgqOmMmeeNTsAkrpiTwQ==", "info"=>{"fname"=>"n"}, "commit"=>"Save Info"}
+  Rendering webforms/show.html.erb within layouts/application
+  Rendered webforms/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 27ms (Views: 26.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-21 15:47:29 +0530
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 22ms (Views: 20.5ms)
+
+
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-21 15:47:31 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 23ms (Views: 22.1ms)
+
+
+Started POST "/webforms" for 127.0.0.1 at 2017-07-21 15:47:34 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"aIbuW4DKVOqgWUUyV5CJWn9Q6GKGAwjmlvfZQub/GNwdf2ygGnaongZzfbVa41antw8N6nIwXQICULMd1VCoCA==", "info"=>{"fname"=>"kk"}, "commit"=>"Save Info"}
+  Rendering webforms/show.html.erb within layouts/application
+  Rendered webforms/show.html.erb within layouts/application (2.7ms)
+Completed 500 Internal Server Error in 5ms
+
+
+  
+ActionView::Template::Error (undefined method `fname' for nil:NilClass):
+    1: <h1>temp page</h1>
+    2: <p>
+    3:   <strong>name:</strong>
+    4:   <%= @article.fname %>
+    5: </p>
+  
+app/views/webforms/show.html.erb:4:in `_app_views_webforms_show_html_erb___456022795__675070168'
+app/controllers/webforms_controller.rb:6:in `create'
+Started POST "/webforms" for 127.0.0.1 at 2017-07-21 15:48:20 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"aIbuW4DKVOqgWUUyV5CJWn9Q6GKGAwjmlvfZQub/GNwdf2ygGnaongZzfbVa41antw8N6nIwXQICULMd1VCoCA==", "info"=>{"fname"=>"kk"}, "commit"=>"Save Info"}
+  Rendering webforms/show.html.erb within layouts/application
+  Rendered webforms/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 25ms (Views: 24.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-21 15:57:01 +0530
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 23ms (Views: 21.6ms)
+
+
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-21 15:57:02 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 24ms (Views: 22.6ms)
+
+
+Started POST "/webforms" for 127.0.0.1 at 2017-07-21 15:57:05 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"S6AB+RfJ2v/Ea4qgxVuynlG4VAqImC/JH9FNgaucqTo+WYMCjXUmi2JBsifIKG1jmeexgnyrei2LdifemDMZ7g==", "info"=>{"fname"=>"hh"}, "commit"=>"Save Info"}
+  Rendering webforms/show.html.erb within layouts/application
+  Rendered webforms/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 26ms (Views: 25.1ms)
+
+
+Started POST "/webforms" for 127.0.0.1 at 2017-07-21 15:57:56 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"S6AB+RfJ2v/Ea4qgxVuynlG4VAqImC/JH9FNgaucqTo+WYMCjXUmi2JBsifIKG1jmeexgnyrei2LdifemDMZ7g==", "info"=>{"fname"=>"hh"}, "commit"=>"Save Info"}
+  Rendering webforms/show.html.erb within layouts/application
+  Rendered webforms/show.html.erb within layouts/application (24.3ms)
+Completed 500 Internal Server Error in 27ms
+
+
+  
+ActionView::Template::Error (undefined method `id' for nil:NilClass):
+    1: <h1>temp page</h1>
+    2: <p>
+    3:   <strong>name:</strong>
+    4:   <%= @variable.id %>
+    5: </p>
+  
+app/views/webforms/show.html.erb:4:in `_app_views_webforms_show_html_erb___456022795__665823158'
+app/controllers/webforms_controller.rb:7:in `create'
+Started POST "/webforms" for 127.0.0.1 at 2017-07-21 15:58:15 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"S6AB+RfJ2v/Ea4qgxVuynlG4VAqImC/JH9FNgaucqTo+WYMCjXUmi2JBsifIKG1jmeexgnyrei2LdifemDMZ7g==", "info"=>{"fname"=>"hh"}, "commit"=>"Save Info"}
+  Rendering webforms/show.html.erb within layouts/application
+  Rendered webforms/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 20ms (Views: 19.2ms)
+
+
+Started GET "/webforms" for 127.0.0.1 at 2017-07-21 15:58:32 +0530
+  
+AbstractController::ActionNotFound (The action 'index' could not be found for WebformsController):
+  
+actionpack (5.1.2) lib/abstract_controller/base.rb:119:in `process'
+actionview (5.1.2) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.2) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.2) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:46:in `block in serve'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:832:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.2) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.2) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-07-21 15:58:39 +0530
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 23ms (Views: 21.6ms)
+
+
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-21 15:58:40 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 22ms (Views: 20.9ms)
+
+
+Started POST "/webforms" for 127.0.0.1 at 2017-07-21 15:58:42 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/A1U/o22q8qqLCWX+6IUG0p2bb4iIgAADWxR0iYflNqJ9NYFFwpXvgwGHRD20cvmgimINtYRVeSZyzuNFbAkDg==", "info"=>{"fname"=>"ghgy"}, "commit"=>"Save Info"}
+  Rendering webforms/show.html.erb within layouts/application
+  Rendered webforms/show.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 5ms
+
+
+  
+ActionView::Template::Error (undefined method `fname' for nil:NilClass):
+    1: <h1>temp page</h1>
+    2: <p>
+    3:   <strong>name:</strong>
+    4:   <%= @variable.fname %>
+    5: </p>
+  
+app/views/webforms/show.html.erb:4:in `_app_views_webforms_show_html_erb___456022795__637940638'
+app/controllers/webforms_controller.rb:7:in `create'
+Started GET "/" for 127.0.0.1 at 2017-07-21 16:21:56 +0530
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 22ms (Views: 20.7ms)
+
+
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-21 16:21:57 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 22ms (Views: 20.7ms)
+
+
+Started POST "/webforms" for 127.0.0.1 at 2017-07-21 16:22:00 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"c1ycB6uspgdGJR6cNQWMDp8USNgK6lnWvFuprkNpA6cGpR78MRBac+APJhs4dlPzV0utUP7ZDDIo/MPxcMazcw==", "info"=>{"fname"=>"sss"}, "commit"=>"Save Info"}
+  Rendering webforms/show.html.erb within layouts/application
+  Rendered webforms/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 21ms (Views: 20.4ms)
+
+
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-26 16:01:40 +0530
+Processing by WebformsController#new as HTML
+Completed 500 Internal Server Error in 239ms
+
+
+  
+NameError (uninitialized constant WebformsController::Webform):
+  
+app/controllers/webforms_controller.rb:3:in `new'
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-26 16:02:04 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (80.4ms)
+Completed 200 OK in 545ms (Views: 529.5ms)
+
+
+Started POST "/webforms" for 127.0.0.1 at 2017-07-26 16:02:09 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"biXD9wUVdG79AxnIdqqHwicv16ZTLYvRo2SuDS209ClidJGK/8DarmYoJTSG0aVxIOxRL2UDKF6V7XjAvHMZNQ==", "info"=>{"fname"=>"aaa"}, "commit"=>"Save Info"}
+Redirected to 
+Completed 500 Internal Server Error in 3ms
+
+
+  
+ActionController::UrlGenerationError (No route matches {:action=>"show", :controller=>"webforms"}):
+  
+app/controllers/webforms_controller.rb:13:in `create'
+Started POST "/webforms" for 127.0.0.1 at 2017-07-26 16:03:03 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"biXD9wUVdG79AxnIdqqHwicv16ZTLYvRo2SuDS209ClidJGK/8DarmYoJTSG0aVxIOxRL2UDKF6V7XjAvHMZNQ==", "info"=>{"fname"=>"aaa"}, "commit"=>"Save Info"}
+Redirected to 
+Completed 500 Internal Server Error in 1ms
+
+
+  
+ActionController::UrlGenerationError (No route matches {:action=>"show", :controller=>"webforms"}):
+  
+app/controllers/webforms_controller.rb:13:in `create'
+Started POST "/webforms" for 127.0.0.1 at 2017-07-26 16:03:30 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"biXD9wUVdG79AxnIdqqHwicv16ZTLYvRo2SuDS209ClidJGK/8DarmYoJTSG0aVxIOxRL2UDKF6V7XjAvHMZNQ==", "info"=>{"fname"=>"aaa"}, "commit"=>"Save Info"}
+Redirected to http://localhost:3000/webforms
+Completed 302 Found in 1ms
+
+
+Started GET "/webforms" for 127.0.0.1 at 2017-07-26 16:03:30 +0530
+  
+AbstractController::ActionNotFound (The action 'index' could not be found for WebformsController):
+  
+actionpack (5.1.2) lib/abstract_controller/base.rb:119:in `process'
+actionview (5.1.2) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.2) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.2) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:46:in `block in serve'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:832:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.2) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.2) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/webforms" for 127.0.0.1 at 2017-07-26 16:04:13 +0530
+  
+AbstractController::ActionNotFound (The action 'index' could not be found for WebformsController):
+  
+actionpack (5.1.2) lib/abstract_controller/base.rb:119:in `process'
+actionview (5.1.2) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.2) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.2) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:46:in `block in serve'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:832:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.2) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.2) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/webforms" for 127.0.0.1 at 2017-07-26 16:04:16 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"biXD9wUVdG79AxnIdqqHwicv16ZTLYvRo2SuDS209ClidJGK/8DarmYoJTSG0aVxIOxRL2UDKF6V7XjAvHMZNQ==", "info"=>{"fname"=>"aaa"}, "commit"=>"Save Info"}
+Redirected to 
+Completed 500 Internal Server Error in 2ms
+
+
+  
+ActionController::UrlGenerationError (No route matches {:action=>"show", :controller=>"webforms"}):
+  
+app/controllers/webforms_controller.rb:13:in `create'
+Started GET "/webforms" for 127.0.0.1 at 2017-07-26 16:12:27 +0530
+  
+AbstractController::ActionNotFound (The action 'index' could not be found for WebformsController):
+  
+actionpack (5.1.2) lib/abstract_controller/base.rb:119:in `process'
+actionview (5.1.2) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.2) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.2) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:46:in `block in serve'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:832:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.2) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.2) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-07-26 16:13:07 +0530
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 82ms (Views: 19.5ms)
+
+
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-26 16:13:08 +0530
+Processing by WebformsController#new as HTML
+Completed 500 Internal Server Error in 2ms
+
+
+  
+NameError (uninitialized constant WebformsController::Webform):
+  
+app/controllers/webforms_controller.rb:3:in `new'
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-26 16:13:36 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 21ms (Views: 19.7ms)
+
+
+Started POST "/webforms" for 127.0.0.1 at 2017-07-26 16:13:40 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lo5V++yvOKwSBG6ySc8oQr6JfN59smFjD9dUBAF84U6a3weGFnqWbIkvUk65tArxuUr6V0ucwuw5XoLJkLsMUg==", "info"=>{"fname"=>"aaaa"}, "commit"=>"Save Info"}
+Completed 500 Internal Server Error in 77ms
+
+
+  
+NoMethodError (undefined method `action' for #<WebformsController:0xb5d2be2c>
+Did you mean?  action_name):
+  
+app/controllers/webforms_controller.rb:9:in `create'
+Started GET "/" for 127.0.0.1 at 2017-07-26 16:17:51 +0530
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 27ms (Views: 25.7ms)
+
+
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-26 16:17:52 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 26ms (Views: 25.1ms)
+
+
+Started POST "/webforms" for 127.0.0.1 at 2017-07-26 16:17:56 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fRSAWIuiJ3eqr6pgnnIdUHRujMfP6ljfunhvVVvuhZbUFgRU/2E0Yl2Z9//3z12aR/yu9wst05o1kWTfE6mFiQ==", "info"=>{"fname"=>"xxx"}, "commit"=>"Save Info"}
+Completed 500 Internal Server Error in 105ms
+
+
+  
+NoMethodError (undefined method `action' for #<WebformsController:0xb308e928>
+Did you mean?  action_name):
+  
+app/controllers/webforms_controller.rb:9:in `create'
+Started POST "/webforms" for 127.0.0.1 at 2017-07-26 16:18:46 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fRSAWIuiJ3eqr6pgnnIdUHRujMfP6ljfunhvVVvuhZbUFgRU/2E0Yl2Z9//3z12aR/yu9wst05o1kWTfE6mFiQ==", "info"=>{"fname"=>"xxx"}, "commit"=>"Save Info"}
+Redirected to 
+Completed 500 Internal Server Error in 152ms
+
+
+  
+NoMethodError (undefined method `show_url' for #<WebformsController:0xb5d531ac>):
+  
+app/controllers/webforms_controller.rb:9:in `create'
+Started POST "/webforms" for 127.0.0.1 at 2017-07-26 16:19:00 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fRSAWIuiJ3eqr6pgnnIdUHRujMfP6ljfunhvVVvuhZbUFgRU/2E0Yl2Z9//3z12aR/yu9wst05o1kWTfE6mFiQ==", "info"=>{"fname"=>"xxx"}, "commit"=>"Save Info"}
+Redirected to 
+Completed 500 Internal Server Error in 1ms
+
+
+  
+ActionController::ActionControllerError (Cannot redirect to nil!):
+  
+app/controllers/webforms_controller.rb:9:in `create'
+Started POST "/webforms" for 127.0.0.1 at 2017-07-26 16:20:03 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fRSAWIuiJ3eqr6pgnnIdUHRujMfP6ljfunhvVVvuhZbUFgRU/2E0Yl2Z9//3z12aR/yu9wst05o1kWTfE6mFiQ==", "info"=>{"fname"=>"xxx"}, "commit"=>"Save Info"}
+Redirected to 
+Completed 500 Internal Server Error in 2ms
+
+
+  
+ActionController::UnfilteredParameters (unable to convert unpermitted parameters to hash):
+  
+app/controllers/webforms_controller.rb:9:in `create'
+Started GET "/" for 127.0.0.1 at 2017-07-26 16:21:47 +0530
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 37ms (Views: 35.0ms)
+
+
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-26 16:21:49 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 22ms (Views: 21.0ms)
+
+
+Started POST "/webforms" for 127.0.0.1 at 2017-07-26 16:21:55 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzHKZr6KkA8aBsIwVwA0HrZTepaz/13q59nne0Sgj5ayM05qykmDGu0wn68+vXTUhcFYpnc41q9oMOzxDOePiQ==", "info"=>{"fname"=>"d", "fclass"=>"g"}, "commit"=>"Save Info"}
+Redirected to 
+Completed 500 Internal Server Error in 1ms
+
+
+  
+ActionController::UnfilteredParameters (unable to convert unpermitted parameters to hash):
+  
+app/controllers/webforms_controller.rb:9:in `create'
+Started PUT "/__web_console/repl_sessions/48f59e5b17f726debe2471c4c0b678d4" for 127.0.0.1 at 2017-07-26 16:22:27 +0530
+Started PUT "/__web_console/repl_sessions/48f59e5b17f726debe2471c4c0b678d4" for 127.0.0.1 at 2017-07-26 16:22:31 +0530
+Started POST "/webforms" for 127.0.0.1 at 2017-07-26 16:24:02 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzHKZr6KkA8aBsIwVwA0HrZTepaz/13q59nne0Sgj5ayM05qykmDGu0wn68+vXTUhcFYpnc41q9oMOzxDOePiQ==", "info"=>{"fname"=>"d", "fclass"=>"g"}, "commit"=>"Save Info"}
+  Rendering webforms/show.html.erb within layouts/application
+  Rendered webforms/show.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 5ms
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <%= form_for @veriable do |f| %>
+    2: <h1>hello</h1>
+    3: <% end %>
+  
+app/views/webforms/show.html.erb:1:in `_app_views_webforms_show_html_erb___851825337__639288848'
+app/controllers/webforms_controller.rb:8:in `create'
+Started PUT "/__web_console/repl_sessions/f361d32ca77e31b6ed029335e5a855a4" for 127.0.0.1 at 2017-07-26 16:24:27 +0530
+Started PUT "/__web_console/repl_sessions/f361d32ca77e31b6ed029335e5a855a4" for 127.0.0.1 at 2017-07-26 16:24:32 +0530
+Started POST "/webforms" for 127.0.0.1 at 2017-07-26 16:25:19 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzHKZr6KkA8aBsIwVwA0HrZTepaz/13q59nne0Sgj5ayM05qykmDGu0wn68+vXTUhcFYpnc41q9oMOzxDOePiQ==", "info"=>{"fname"=>"d", "fclass"=>"g"}, "commit"=>"Save Info"}
+  Rendering webforms/show.html.erb within layouts/application
+  Rendered webforms/show.html.erb within layouts/application (232.4ms)
+Completed 500 Internal Server Error in 235ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `show' for #<#<Class:0xb3cd0344>:0xb5de5570>):
+    1: <%= form_for show do |f| %>
+    2: <h1>hello</h1>
+    3: <% end %>
+  
+app/views/webforms/show.html.erb:1:in `_app_views_webforms_show_html_erb___851825337__621861448'
+app/controllers/webforms_controller.rb:8:in `create'
+Started POST "/webforms" for 127.0.0.1 at 2017-07-26 16:26:22 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzHKZr6KkA8aBsIwVwA0HrZTepaz/13q59nne0Sgj5ayM05qykmDGu0wn68+vXTUhcFYpnc41q9oMOzxDOePiQ==", "info"=>{"fname"=>"d", "fclass"=>"g"}, "commit"=>"Save Info"}
+Redirected to 
+Completed 500 Internal Server Error in 2ms
+
+
+  
+ActionController::UnfilteredParameters (unable to convert unpermitted parameters to hash):
+  
+app/controllers/webforms_controller.rb:9:in `create'
+Started PUT "/__web_console/repl_sessions/365ac1e73e8d30b2cac358355abb5f0f" for 127.0.0.1 at 2017-07-26 16:26:26 +0530
+Started PUT "/__web_console/repl_sessions/365ac1e73e8d30b2cac358355abb5f0f" for 127.0.0.1 at 2017-07-26 16:26:29 +0530
+Started GET "/" for 127.0.0.1 at 2017-07-26 16:27:31 +0530
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 19ms (Views: 18.3ms)
+
+
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-26 16:27:32 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 23ms (Views: 21.6ms)
+
+
+Started POST "/webforms" for 127.0.0.1 at 2017-07-26 16:27:37 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4OTTrR2GyAJWjiU+h1Zb2gGXFb1rTg4bIAlDqA08FkZJ5lehaUXbF6G4eKHu6xsQMgU3ja+JhV6v4EgiRXsWWQ==", "info"=>{"fname"=>"m", "fclass"=>"ft"}, "commit"=>"Save Info"}
+Redirected to 
+Completed 500 Internal Server Error in 1ms
+
+
+  
+ActionController::UnfilteredParameters (unable to convert unpermitted parameters to hash):
+  
+app/controllers/webforms_controller.rb:9:in `create'
+Started PUT "/__web_console/repl_sessions/40cad718f36eda960ebcd58e1ac3e4e4" for 127.0.0.1 at 2017-07-26 16:27:47 +0530
+Started PUT "/__web_console/repl_sessions/40cad718f36eda960ebcd58e1ac3e4e4" for 127.0.0.1 at 2017-07-26 16:27:52 +0530
+Started PUT "/__web_console/repl_sessions/40cad718f36eda960ebcd58e1ac3e4e4" for 127.0.0.1 at 2017-07-26 16:28:00 +0530
+Started POST "/webforms" for 127.0.0.1 at 2017-07-26 16:28:46 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4OTTrR2GyAJWjiU+h1Zb2gGXFb1rTg4bIAlDqA08FkZJ5lehaUXbF6G4eKHu6xsQMgU3ja+JhV6v4EgiRXsWWQ==", "info"=>{"fname"=>"m", "fclass"=>"ft"}, "commit"=>"Save Info"}
+  Rendering webforms/show.html.erb within layouts/application
+  Rendered webforms/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 21ms (Views: 20.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 16:30:17 +0530
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 21ms (Views: 20.1ms)
+
+
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-26 16:30:19 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 23ms (Views: 21.6ms)
+
+
+Started POST "/webforms" for 127.0.0.1 at 2017-07-26 16:30:24 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jMJQ/PMepnWAFAor+YP3ysFoQ1R2Dmz4vh89cx1Hk90lwNTwh921YHciV7SQPrcA8vphZLLJ570x9jb5VQCTwg==", "info"=>{"fname"=>"aa", "fclass"=>"ss"}, "commit"=>"Save Info"}
+  Rendering webforms/show.html.erb within layouts/application
+  Rendered webforms/show.html.erb within layouts/application (3.4ms)
+Completed 500 Internal Server Error in 5ms
+
+
+  
+ActionView::Template::Error (undefined method `fname' for #<ActionController::Parameters:0xb461bd54>):
+    2: <h1>hello</h1>
+    3: <p>
+    4:   <strong>name:</strong>
+    5:   <%= @variable.fname %>
+    6: </p>
+    7: 
+    8: <% end %>
+  
+app/views/webforms/show.html.erb:5:in `block in _app_views_webforms_show_html_erb___851825337__634333158'
+app/views/webforms/show.html.erb:1:in `_app_views_webforms_show_html_erb___851825337__634333158'
+app/controllers/webforms_controller.rb:8:in `create'
+Started PUT "/__web_console/repl_sessions/3ec0c28b1f574097031eb9b8f4217d4e" for 127.0.0.1 at 2017-07-26 16:31:00 +0530
+Started PUT "/__web_console/repl_sessions/3ec0c28b1f574097031eb9b8f4217d4e" for 127.0.0.1 at 2017-07-26 16:31:06 +0530
+Started POST "/webforms" for 127.0.0.1 at 2017-07-26 16:31:41 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jMJQ/PMepnWAFAor+YP3ysFoQ1R2Dmz4vh89cx1Hk90lwNTwh921YHciV7SQPrcA8vphZLLJ570x9jb5VQCTwg==", "info"=>{"fname"=>"aa", "fclass"=>"ss"}, "commit"=>"Save Info"}
+  Rendering webforms/show.html.erb within layouts/application
+  Rendered webforms/show.html.erb within layouts/application (3.1ms)
+Completed 500 Internal Server Error in 6ms
+
+
+  
+ActionView::Template::Error (undefined method `fname' for #<ActionController::Parameters:0xb2e07240>):
+    2: <h1>hello</h1>
+    3: <p>
+    4:   <strong>name:</strong>
+    5:   <%= @variable.fname %>
+    6: </p>
+    7: 
+    8: <% end %>
+  
+app/views/webforms/show.html.erb:5:in `block in _app_views_webforms_show_html_erb___851825337__646961788'
+app/views/webforms/show.html.erb:1:in `_app_views_webforms_show_html_erb___851825337__646961788'
+app/controllers/webforms_controller.rb:8:in `create'
+Started PUT "/__web_console/repl_sessions/5cfa62f5eb8a2b1f89609dfa1f9997d3" for 127.0.0.1 at 2017-07-26 16:31:48 +0530
+Started PUT "/__web_console/repl_sessions/5cfa62f5eb8a2b1f89609dfa1f9997d3" for 127.0.0.1 at 2017-07-26 16:31:51 +0530
+Started GET "/" for 127.0.0.1 at 2017-07-26 16:32:39 +0530
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 20ms (Views: 18.9ms)
+
+
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-26 16:32:40 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 25ms (Views: 23.6ms)
+
+
+Started POST "/webforms" for 127.0.0.1 at 2017-07-26 16:32:45 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ey7OJoxO/IwOv8GDA4hXIbNItPEHD2M/UznK7U4MlRe6LEoq+I3vmfmJnBxqNRfrgNqWwcPI6Hrc0MFnBkuVCA==", "info"=>{"fname"=>"k", "fclass"=>"gf"}, "commit"=>"Save Info"}
+  Rendering webforms/show.html.erb within layouts/application
+  Rendered webforms/show.html.erb within layouts/application (3.2ms)
+Completed 500 Internal Server Error in 6ms
+
+
+  
+ActionView::Template::Error (undefined method `fname' for #<ActionController::Parameters:0xb31a0a28>):
+    2: <h1>hello</h1>
+    3: <p>
+    4:   <strong>name:</strong>
+    5:   <%= @variable.fname %>
+    6: </p>
+    7: 
+    8: <% end %>
+  
+app/views/webforms/show.html.erb:5:in `block in _app_views_webforms_show_html_erb___851825337__645095818'
+app/views/webforms/show.html.erb:1:in `_app_views_webforms_show_html_erb___851825337__645095818'
+app/controllers/webforms_controller.rb:8:in `create'
+Started PUT "/__web_console/repl_sessions/041c06b93725c255de75d36469ed8d4b" for 127.0.0.1 at 2017-07-26 16:32:53 +0530
+Started PUT "/__web_console/repl_sessions/041c06b93725c255de75d36469ed8d4b" for 127.0.0.1 at 2017-07-26 16:32:57 +0530
+Started PUT "/__web_console/repl_sessions/041c06b93725c255de75d36469ed8d4b" for 127.0.0.1 at 2017-07-26 16:33:14 +0530
+Started PUT "/__web_console/repl_sessions/041c06b93725c255de75d36469ed8d4b" for 127.0.0.1 at 2017-07-26 16:34:06 +0530
+Started GET "/" for 127.0.0.1 at 2017-07-26 16:37:30 +0530
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 23ms (Views: 21.7ms)
+
+
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-26 16:37:32 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 24ms (Views: 23.3ms)
+
+
+Started POST "/webforms" for 127.0.0.1 at 2017-07-26 16:37:37 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dTUdJkL/mBQijWdT8mHWAptyfQSIIdLXyjfoF5uXAXHcN5kqNjyLAdW7Osyb3JbIqOBfNEzmWZJF3uOd09ABbg==", "info"=>{"fname"=>"v", "fclass"=>"v"}, "commit"=>"Save Info"}
+  Rendering webforms/show.html.erb within layouts/application
+  Rendered webforms/show.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 3ms
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <%= form_for @varible do |f| %>
+    2: <h1>hello</h1>
+    3: <p>
+    4:   <strong>name:</strong>
+  
+app/views/webforms/show.html.erb:1:in `_app_views_webforms_show_html_erb___851825337__642528918'
+app/controllers/webforms_controller.rb:8:in `create'
+Started POST "/webforms" for 127.0.0.1 at 2017-07-26 16:38:05 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dTUdJkL/mBQijWdT8mHWAptyfQSIIdLXyjfoF5uXAXHcN5kqNjyLAdW7Osyb3JbIqOBfNEzmWZJF3uOd09ABbg==", "info"=>{"fname"=>"v", "fclass"=>"v"}, "commit"=>"Save Info"}
+  Rendering webforms/show.html.erb within layouts/application
+  Rendered webforms/show.html.erb within layouts/application (7.8ms)
+Completed 500 Internal Server Error in 11ms
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<ActionController::Parameters:0xb5953660>):
+    1: <%= form_for @variable do |f| %>
+    2: <h1>hello</h1>
+    3: <p>
+    4:   <strong>name:</strong>
+  
+app/views/webforms/show.html.erb:1:in `_app_views_webforms_show_html_erb___851825337__624258168'
+app/controllers/webforms_controller.rb:8:in `create'
+Started GET "/" for 127.0.0.1 at 2017-07-26 16:39:39 +0530
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 21ms (Views: 19.6ms)
+
+
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-26 16:39:43 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 22ms (Views: 20.8ms)
+
+
+Started POST "/webforms" for 127.0.0.1 at 2017-07-26 16:39:48 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zV45QCJDgwNq79ql7sTfxErJSIlYu7Gt/+ooQI7uEXNkXL1MVoCQFp3ZhzqHeZ8OeVtquZx8OuhwAyPKxqkRbA==", "info"=>{"fname"=>"h", "fclass"=>"j"}, "commit"=>"Save Info"}
+  Rendering webforms/show.html.erb within layouts/application
+  Rendered webforms/show.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 3ms
+
+
+  
+SyntaxError (/home/nmu/appform/app/views/webforms/show.html.erb:10: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+                ^):
+  
+app/views/webforms/show.html.erb:10: syntax error, unexpected keyword_ensure, expecting end-of-input
+app/controllers/webforms_controller.rb:8:in `create'
+Started POST "/webforms" for 127.0.0.1 at 2017-07-26 16:40:08 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zV45QCJDgwNq79ql7sTfxErJSIlYu7Gt/+ooQI7uEXNkXL1MVoCQFp3ZhzqHeZ8OeVtquZx8OuhwAyPKxqkRbA==", "info"=>{"fname"=>"h", "fclass"=>"j"}, "commit"=>"Save Info"}
+  Rendering webforms/show.html.erb within layouts/application
+  Rendered webforms/show.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 4ms
+
+
+  
+ActionView::Template::Error (Missing block):
+    1: <%= form_for :show %>
+    2: <h1>hello</h1>
+    3: <p>
+    4:   <strong>name:</strong>
+  
+app/views/webforms/show.html.erb:1:in `_app_views_webforms_show_html_erb___851825337__643695848'
+app/controllers/webforms_controller.rb:8:in `create'
+Started GET "/" for 127.0.0.1 at 2017-07-26 16:40:46 +0530
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 22ms (Views: 20.7ms)
+
+
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-26 16:40:47 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 22ms (Views: 21.1ms)
+
+
+Started POST "/webforms" for 127.0.0.1 at 2017-07-26 16:40:51 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dEy3mY6+ZmjzuOdHnEPrZ761XQI+RClFhbCaDy3vc4PdTjOV+n11fQSOutj1/qutjSd/MvqDogAKWZGFZahznA==", "info"=>{"fname"=>"aaa", "fclass"=>"dd"}, "commit"=>"Save Info"}
+  Rendering webforms/show.html.erb within layouts/application
+  Rendered webforms/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 22ms (Views: 21.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 16:42:35 +0530
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 22ms (Views: 20.1ms)
+
+
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-26 16:42:37 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 21ms (Views: 19.9ms)
+
+
+Started POST "/webforms" for 127.0.0.1 at 2017-07-26 16:42:41 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IIcmHrylHbbW+ywELnkNJbqvrR0q6ock9552u8s71IOJhaISyGYOoyHNcZtHxE3viT2PLe4tDGF4d30xg3zUnA==", "info"=>{"fname"=>"bh", "fclass"=>"m"}, "commit"=>"Save Info"}
+  Rendering webforms/show.html.erb within layouts/application
+  Rendered webforms/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 21ms (Views: 20.7ms)
+
+
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-26 16:47:00 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (105.5ms)
+Completed 200 OK in 985ms (Views: 729.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 16:49:22 +0530
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 41ms (Views: 18.1ms)
+
+
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-26 16:49:24 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 21ms (Views: 19.9ms)
+
+
+Started POST "/webforms" for 127.0.0.1 at 2017-07-26 16:49:28 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oXAX5K85K0rqJnQ50n/PIZVl6y1rMbbWj9atNabvtPAIcpPo2/o4Xx0QKaa7wo/rpvfJHa/2PZMAP6a/7qi07w==", "info"=>{"fname"=>"v", "fclass"=>"v"}, "commit"=>"Save Info"}
+  Rendering webforms/show.html.erb within layouts/application
+  Rendered webforms/show.html.erb within layouts/application (53.5ms)
+Completed 500 Internal Server Error in 56ms
+
+
+  
+ActionView::Template::Error (undefined method `info' for #<ActionController::Parameters:0xb331c730>):
+    2: <h1>hello</h1>
+    3: <p>
+    4:   <strong>name:</strong>
+    5:   #<%= @variable.info%>
+    6: <%= params[:info] %>
+    7: </p>
+    8: 
+  
+app/views/webforms/show.html.erb:5:in `block in _app_views_webforms_show_html_erb___658026482__634898308'
+app/views/webforms/show.html.erb:1:in `_app_views_webforms_show_html_erb___658026482__634898308'
+app/controllers/webforms_controller.rb:8:in `create'
+Started PUT "/__web_console/repl_sessions/4027b79f016104b3eb4769dc534df306" for 127.0.0.1 at 2017-07-26 16:49:43 +0530
+Started PUT "/__web_console/repl_sessions/4027b79f016104b3eb4769dc534df306" for 127.0.0.1 at 2017-07-26 16:49:44 +0530
+Started GET "/" for 127.0.0.1 at 2017-07-26 16:50:43 +0530
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 19ms (Views: 17.9ms)
+
+
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-26 16:50:44 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 33ms (Views: 32.0ms)
+
+
+Started POST "/webforms" for 127.0.0.1 at 2017-07-26 16:50:48 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9zYb2m7BIU7hHAS1u9b2Zx3hXtLkg/GrNPGDNyY3zHheNJ/WGgIyWxYqWSrSa7atLnN84iBEeu67GIi9bnDMZw==", "info"=>{"fname"=>"m", "fclass"=>"m"}, "commit"=>"Save Info"}
+  Rendering webforms/show.html.erb within layouts/application
+  Rendered webforms/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 20ms (Views: 19.4ms)
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       Started GET "/" for 127.0.0.1 at 2017-07-26 16:55:53 +0530
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 805ms (Views: 524.2ms)
+
+
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-26 16:55:56 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (127.6ms)
+Completed 200 OK in 146ms (Views: 145.1ms)
+
+
+Started POST "/webforms" for 127.0.0.1 at 2017-07-26 16:55:59 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"K1unGnMfTIiNpWZQZOPpiuN6VpO1JNm00WXvf2iLbZSCWSMWB9xfnXqTO88NXqlA0Oh0o3HjUvFejOT1IMxtiw==", "info"=>{"fname"=>"z", "fclass"=>"z"}, "commit"=>"Save Info"}
+  Rendering webforms/show.html.erb within layouts/application
+  Rendered webforms/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 19ms (Views: 18.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 16:56:29 +0530
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 19ms (Views: 18.2ms)
+
+
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-26 16:56:31 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 21ms (Views: 20.3ms)
+
+
+Started POST "/webforms" for 127.0.0.1 at 2017-07-26 16:56:33 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"V+KCmP6cDWYNjvj3lFBOn0+9YMix3U5tnXch5FD7U1L+4AaUil8ec/q4pWj97Q5VfC9C+HUaxSgSnipuGLxTTQ==", "info"=>{"fname"=>"z", "fclass"=>""}, "commit"=>"Save Info"}
+  Rendering webforms/show.html.erb within layouts/application
+  Rendered webforms/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 22ms (Views: 21.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 16:57:08 +0530
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 19ms (Views: 18.1ms)
+
+
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-26 16:57:09 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 21ms (Views: 19.6ms)
+
+
+Started POST "/webforms" for 127.0.0.1 at 2017-07-26 16:57:12 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RJwJfWLosMQa2keitTGSSO+BrTUNlD8KOJh03TGiAp7tno1xFiuj0e3sGj3cjNKC3BOPBclTtE+3cX9XeeUCgQ==", "info"=>{"fname"=>"z", "fclass"=>"z"}, "commit"=>"Save Info"}
+  Rendering webforms/show.html.erb within layouts/application
+  Rendered webforms/show.html.erb within layouts/application (19.5ms)
+Completed 500 Internal Server Error in 22ms
+
+
+  
+ActionView::Template::Error (undefined method `f' for #<ActionController::Parameters:0xb311953c>):
+    2: <h1>hello</h1>
+    3: <p>
+    4:   <strong>name:</strong>
+    5:   <%= @variable.f%>
+    6: <strong>class:</strong>
+    7: <%= params[:fclass] %>
+    8: </p>
+  
+app/views/webforms/show.html.erb:5:in `block in _app_views_webforms_show_html_erb___323143232__645348328'
+app/views/webforms/show.html.erb:1:in `_app_views_webforms_show_html_erb___323143232__645348328'
+app/controllers/webforms_controller.rb:8:in `create'
+Started PUT "/__web_console/repl_sessions/580e2aa684806a2d4ed8f88b4bbd53b3" for 127.0.0.1 at 2017-07-26 16:57:25 +0530
+Started PUT "/__web_console/repl_sessions/580e2aa684806a2d4ed8f88b4bbd53b3" for 127.0.0.1 at 2017-07-26 16:57:26 +0530
+Started PUT "/__web_console/repl_sessions/580e2aa684806a2d4ed8f88b4bbd53b3" for 127.0.0.1 at 2017-07-26 16:58:45 +0530
+Started PUT "/__web_console/repl_sessions/580e2aa684806a2d4ed8f88b4bbd53b3" for 127.0.0.1 at 2017-07-26 16:58:46 +0530
+Started PUT "/__web_console/repl_sessions/580e2aa684806a2d4ed8f88b4bbd53b3" for 127.0.0.1 at 2017-07-26 16:58:58 +0530
+Started PUT "/__web_console/repl_sessions/580e2aa684806a2d4ed8f88b4bbd53b3" for 127.0.0.1 at 2017-07-26 16:59:07 +0530
+Started GET "/" for 127.0.0.1 at 2017-07-26 16:59:59 +0530
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 21ms (Views: 20.0ms)
+
+
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-26 17:00:01 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 23ms (Views: 21.6ms)
+
+
+Started POST "/webforms" for 127.0.0.1 at 2017-07-26 17:00:05 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sE+PnWM5+Te4RYbqZZVylqsWadLKegHqvQ/gKnA6uXoZTQuRF/rqIk9z23UMKDJcmIRL4g69iq8y5uugOH25ZQ==", "info"=>{"fname"=>"zzzz", "fclass"=>"b"}, "commit"=>"Save Info"}
+  Rendering webforms/show.html.erb within layouts/application
+  Rendered webforms/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 22ms (Views: 21.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 17:00:46 +0530
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 20ms (Views: 19.2ms)
+
+
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-26 17:00:47 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 28ms (Views: 27.0ms)
+
+
+Started POST "/webforms" for 127.0.0.1 at 2017-07-26 17:00:57 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8plidsAlgSCG4hm2gPsH4HDx4XCf7paKdvDuT9J4QQ9bm+Z6tOaSNXHURCnpRkcqQ2PDQFspHc/5GeXFmj9BEA==", "info"=>{"fname"=>"sachin", "fclass"=>"mca"}, "commit"=>"Save Info"}
+  Rendering webforms/show.html.erb within layouts/application
+  Rendered webforms/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 20ms (Views: 19.4ms)
+
+
+Started GET "/webforms" for 127.0.0.1 at 2017-07-26 17:01:45 +0530
+  
+AbstractController::ActionNotFound (The action 'index' could not be found for WebformsController):
+  
+actionpack (5.1.2) lib/abstract_controller/base.rb:119:in `process'
+actionview (5.1.2) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.2) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.2) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:46:in `block in serve'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:832:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.2) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.2) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-07-26 17:02:00 +0530
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 20ms (Views: 18.9ms)
+
+
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-26 17:02:01 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 23ms (Views: 22.1ms)
+
+
+Started POST "/webforms" for 127.0.0.1 at 2017-07-26 17:02:05 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"attWGdim3zCLloiZtoTyTg1ddsJUFqFogPHLMUXSnYvD2dIVrGXMJXyg1QbfObKEPs9U8pDRKi0PGMC7DZWdlA==", "info"=>{"fname"=>"n", "fclass"=>"n"}, "commit"=>"Save Info"}
+  Rendering webforms/show.html.erb within layouts/application
+  Rendered webforms/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 19ms (Views: 18.8ms)
+
+
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-26 17:02:37 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 21ms (Views: 20.4ms)
+
+
+Started POST "/webforms" for 127.0.0.1 at 2017-07-26 17:02:42 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cpcYTu9Eevj3iMlw6SpDrVSLWXN6HMYNp1gr44aK4Pd+xkozFZHUOGyj9YwZUWEeU0jf+kwyZYKR0f0uF00N6w==", "info"=>{"fname"=>"aa", "fclass"=>"s"}, "commit"=>"Save Info"}
+  Rendering webforms/show.html.erb within layouts/application
+  Rendered webforms/show.html.erb within layouts/application (4.3ms)
+Completed 500 Internal Server Error in 8ms
+
+
+  
+ActionView::Template::Error (undefined method `fname' for #<ActionController::Parameters:0xb395f87c>):
+     5:   <%= @variable[:fname]%>
+     6: <strong>class:</strong>
+     7: <%= @variable[:fclass]%>
+     8: <%= @variable.fname%>
+     9: </p>
+    10: 
+    11: <% end %>
+  
+app/views/webforms/show.html.erb:8:in `block in _app_views_webforms_show_html_erb___323143232__641012628'
+app/views/webforms/show.html.erb:1:in `_app_views_webforms_show_html_erb___323143232__641012628'
+app/controllers/webforms_controller.rb:8:in `create'
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-26 17:05:28 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 21ms (Views: 19.7ms)
+
+
+Started POST "/webforms" for 127.0.0.1 at 2017-07-26 17:05:32 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1xiCi1J+D7FfD3OgHNNKsiQ2mW2MJ04z1A9o9IZhTyzbSdD2qKuhccQkT1zsqGgBI/Uf5LoJ7bzihr45F6aiMA==", "info"=>{"fname"=>"aa", "fclass"=>"aaa"}, "commit"=>"Save Info"}
+  Rendering webforms/show.html.erb within layouts/application
+  Rendered webforms/show.html.erb within layouts/application (3.3ms)
+Completed 500 Internal Server Error in 5ms
+
+
+  
+ActionView::Template::Error (undefined method `fname' for #<ActionController::Parameters:0xb58eb498>):
+     5:   <%= @variable[:fname]%>
+     6: <strong>class:</strong>
+     7: <%= @variable[:fclass]%>
+     8: <%= @variable.fname%>
+     9: </p>
+    10: 
+    11: <% end %>
+  
+app/views/webforms/show.html.erb:8:in `block in _app_views_webforms_show_html_erb___323143232__624471098'
+app/views/webforms/show.html.erb:1:in `_app_views_webforms_show_html_erb___323143232__624471098'
+app/controllers/webforms_controller.rb:8:in `create'
+Started POST "/webforms" for 127.0.0.1 at 2017-07-26 17:05:49 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1xiCi1J+D7FfD3OgHNNKsiQ2mW2MJ04z1A9o9IZhTyzbSdD2qKuhccQkT1zsqGgBI/Uf5LoJ7bzihr45F6aiMA==", "info"=>{"fname"=>"aa", "fclass"=>"aaa"}, "commit"=>"Save Info"}
+  Rendering webforms/show.html.erb within layouts/application
+  Rendered webforms/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 29ms (Views: 28.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-28 13:49:33 +0530
+Started GET "/" for 127.0.0.1 at 2017-07-28 13:49:33 +0530
+Processing by WelcomeController#index as HTML
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.5ms)
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 1002ms (Views: 705.2ms)
+
+
+Completed 200 OK in 993ms (Views: 705.6ms)
+
+
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-28 13:49:39 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-28 13:49:39 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (122.0ms)
+  Rendered webforms/new.html.erb within layouts/application (289.6ms)
+Completed 200 OK in 142ms (Views: 141.4ms)
+
+
+Completed 200 OK in 327ms (Views: 325.4ms)
+
+
+Started POST "/webforms" for 127.0.0.1 at 2017-07-28 13:50:00 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4Gb4hhgrdG8qC1l8X+eb+zkWPX8Xi2Du+raeRKP0nAU4PxMuSPv0qM1Pv1r5LB34bN/lwm+U3gNhI+9kg/JriA==", "info"=>{"sname"=>"hgh", "sclass"=>"wec", "semail"=>"xsa", "scontact"=>"asc", "sadd"=>"ascxa"}, "commit"=>"Save Info"}
+  Rendering webforms/show.html.erb within layouts/application
+  Rendered webforms/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 19ms (Views: 18.6ms)
+
+
+Started POST "/webforms" for 127.0.0.1 at 2017-07-28 13:50:05 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"//satgBVGHzdcHsC1bo8qVS9EgKe+mh3H1UWgv7NZAeR4ucpJd/1zVNFWzCfISmjSqEFSbVCqWXPgw+Vx08n0A=="}
+  Rendering webforms/show.html.erb within layouts/application
+  Rendered webforms/show.html.erb within layouts/application (18.9ms)
+Completed 500 Internal Server Error in 21ms
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    2: <h1>hello</h1>
+    3: <p>
+    4:   <strong>name:</strong>
+    5:   <%= @variable[:sname]%>
+    6: 
+    7: <strong>class:</strong>
+    8: <%= @variable[:sclass]%>
+  
+app/views/webforms/show.html.erb:5:in `block in _app_views_webforms_show_html_erb__952336404__642579718'
+app/views/webforms/show.html.erb:1:in `_app_views_webforms_show_html_erb__952336404__642579718'
+app/controllers/webforms_controller.rb:8:in `create'
+Started GET "/" for 127.0.0.1 at 2017-07-28 13:52:44 +0530
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 22ms (Views: 20.7ms)
+
+
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-28 13:52:45 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 23ms (Views: 21.5ms)
+
+
+Started POST "/webforms" for 127.0.0.1 at 2017-07-28 13:52:53 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zYskTCqpYVYFgyW3sdNL8Gqt8/cpnBbA3wpWKyxs/zwV0s/kennhkeLHw5EXGM3zP2QrSlGDqC1EnycLDGoIsQ==", "info"=>{"sname"=>"bb", "sclass"=>"bb", "semail"=>"bb", "scontact"=>"bb", "sadd"=>"bb"}, "commit"=>"Save Info"}
+  Rendering webforms/show.html.erb within layouts/application
+  Rendered webforms/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 40ms (Views: 39.6ms)
+
+
+Started POST "/webforms" for 127.0.0.1 at 2017-07-28 13:52:56 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MFS/kDgv+yQoOU+mPLQwHlv5uF8TGsJ9dqmazGFdp1VeTUIPHaUWlaYMb5R2LyUUReWvFDiiA2+mf4PbWN/kgg=="}
+  Rendering webforms/show.html.erb within layouts/application
+  Rendered webforms/show.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 5ms
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    2: <h1>hello</h1>
+    3: <p>
+    4:   <strong>name:</strong>
+    5:   <%= @variable[:sname]%>
+    6: </p>
+    7: <p>
+    8: <strong>class:</strong>
+  
+app/views/webforms/show.html.erb:5:in `block in _app_views_webforms_show_html_erb__952336404__658261218'
+app/views/webforms/show.html.erb:1:in `_app_views_webforms_show_html_erb__952336404__658261218'
+app/controllers/webforms_controller.rb:8:in `create'
+Started POST "/webforms" for 127.0.0.1 at 2017-07-28 13:53:03 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zYskTCqpYVYFgyW3sdNL8Gqt8/cpnBbA3wpWKyxs/zwV0s/kennhkeLHw5EXGM3zP2QrSlGDqC1EnycLDGoIsQ==", "info"=>{"sname"=>"", "sclass"=>"", "semail"=>"", "scontact"=>"", "sadd"=>""}, "commit"=>"Save Info"}
+  Rendering webforms/show.html.erb within layouts/application
+  Rendered webforms/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 23ms (Views: 22.3ms)
+
+
+Started POST "/webforms" for 127.0.0.1 at 2017-07-28 13:53:05 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QwStoGKnOX4APinypQ89EHIcSF05ErenYvwrzSPBYQ8tHVA/Ry3Uz44LCcDvlCgabABfFhKqdrWyKjLaGkMi2A=="}
+  Rendering webforms/show.html.erb within layouts/application
+  Rendered webforms/show.html.erb within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 5ms
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    2: <h1>hello</h1>
+    3: <p>
+    4:   <strong>name:</strong>
+    5:   <%= @variable[:sname]%>
+    6: </p>
+    7: <p>
+    8: <strong>class:</strong>
+  
+app/views/webforms/show.html.erb:5:in `block in _app_views_webforms_show_html_erb__952336404__636549248'
+app/views/webforms/show.html.erb:1:in `_app_views_webforms_show_html_erb__952336404__636549248'
+app/controllers/webforms_controller.rb:8:in `create'
+Started POST "/webforms" for 127.0.0.1 at 2017-07-28 13:54:05 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QwStoGKnOX4APinypQ89EHIcSF05ErenYvwrzSPBYQ8tHVA/Ry3Uz44LCcDvlCgabABfFhKqdrWyKjLaGkMi2A=="}
+  Rendering webforms/show.html.erb within layouts/application
+  Rendered webforms/show.html.erb within layouts/application (3.9ms)
+Completed 500 Internal Server Error in 7ms
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+     6: </p>
+     7: <p>
+     8: <strong>class:</strong>
+     9: <%= @variable[:sclass]%>
+    10: </p>
+    11: <p>
+    12: <strong>EmailID:</strong>
+  
+app/views/webforms/show.html.erb:9:in `block in _app_views_webforms_show_html_erb__952336404__655662718'
+app/views/webforms/show.html.erb:1:in `_app_views_webforms_show_html_erb__952336404__655662718'
+app/controllers/webforms_controller.rb:8:in `create'
+Started GET "/webforms" for 127.0.0.1 at 2017-07-28 14:01:01 +0530
+  
+AbstractController::ActionNotFound (The action 'index' could not be found for WebformsController):
+  
+actionpack (5.1.2) lib/abstract_controller/base.rb:119:in `process'
+actionview (5.1.2) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.2) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.2) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:46:in `block in serve'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:832:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.2) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.2) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-07-28 14:01:09 +0530
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 19ms (Views: 18.3ms)
+
+
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-28 14:01:10 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 21ms (Views: 20.5ms)
+
+
+Started POST "/webforms" for 127.0.0.1 at 2017-07-28 14:01:12 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vnrTpa/vx3PD8mH7y0aTF8HFPU7+OnQ3iLh6ifBV4YFmIzgN/z9HtCS2h91tjRUUlAzl84YlytoTLQup0FMWDA==", "info"=>{"sname"=>"", "sclass"=>"", "semail"=>"", "scontact"=>"", "sadd"=>""}, "commit"=>"Save Info"}
+  Rendering webforms/show.html.erb within layouts/application
+  Rendered webforms/show.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 21ms (Views: 20.1ms)
+
+
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-28 14:01:14 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 26ms (Views: 25.2ms)
+
+
+Started POST "/webforms" for 127.0.0.1 at 2017-07-28 14:01:29 +0530
+Processing by WebformsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fPZkDBe1XFpgbHFt+vOSmeadDKo8ztPCtKmYz5c3k9gS75mTMj+x6+5ZUV+waIeT+IEb4Rd2EtBkf4HYrrXQDw==", "info"=>{"sname"=>"j", "sclass"=>"j", "semail"=>"j", "scontact"=>"j", "sadd"=>"j"}, "commit"=>"Save Info"}
+  Rendering webforms/show.html.erb within layouts/application
+  Rendered webforms/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 24ms (Views: 23.2ms)
+
+
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-28 14:01:30 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 24ms (Views: 23.0ms)
+
+
+Started GET "/webforms/new" for 127.0.0.1 at 2017-07-28 14:09:46 +0530
+Processing by WebformsController#new as HTML
+  Rendering webforms/new.html.erb within layouts/application
+  Rendered webforms/new.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 6ms
+
+
+  
+SyntaxError (/home/nmu/appform/app/views/webforms/new.html.erb:5: syntax error, unexpected tIDENTIFIER, expecting ')'
+ f.text_field :sname validates :body, presence: true, allow_
+                              ^
+/home/nmu/appform/app/views/webforms/new.html.erb:5: Can't assign to true
+lidates :body, presence: true, allow_blank: false);@output_b
+                              ^):
+  
+app/views/webforms/new.html.erb:5: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/webforms/new.html.erb:5: Can't assign to true
